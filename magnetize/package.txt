@@ -1,0 +1,5 @@
+NAME=magnetize
+
+SRCDIR=src
+
+SRCS=magnetize.cpp

@@ -1,0 +1,5 @@
+NAME=cartospher
+
+SRCDIR=src
+
+SRCS=cartospher.cpp
