@@ -1,0 +1,139 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 2FBBEAD608F335360078DB84 /* max-external */;
+		addToTargets = (
+			2FBBEAD608F335360078DB84 /* max-external */,
+		);
+		breakpoints = (
+			307CCB0B13073AEF00395FA3 /* gbend~.c:470 */,
+		);
+		codeSenseManager = 3029C147126517CE00964DD4 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337707772;
+			PBXWorkspaceStateSaveDate = 337707772;
+		};
+		perUserProjectItems = {
+			301DD163142107780011C846 /* PBXTextBookmark */ = 301DD163142107780011C846 /* PBXTextBookmark */;
+			301DD164142107780011C846 /* PBXTextBookmark */ = 301DD164142107780011C846 /* PBXTextBookmark */;
+			301DD165142107780011C846 /* PBXBookmark */ = 301DD165142107780011C846 /* PBXBookmark */;
+			301DD166142107780011C846 /* PBXTextBookmark */ = 301DD166142107780011C846 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3029C146126517CE00964DD4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	22922AD20F38D67900B1EFEA /* commonsyms.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 237}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 269}";
+		};
+	};
+	22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 631}";
+		};
+	};
+	2FBBEAD608F335360078DB84 /* max-external */ = {
+		activeExec = 0;
+	};
+	301DD163142107780011C846 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3029C157126518A000964DD4 /* gbend~.c */;
+		name = "gbend~.c: 596";
+		rLen = 0;
+		rLoc = 16547;
+		rType = 0;
+		vrLen = 540;
+		vrLoc = 15215;
+	};
+	301DD164142107780011C846 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+		name = "maxmspsdk.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 0;
+	};
+	301DD165142107780011C846 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 22922AD20F38D67900B1EFEA /* commonsyms.c */;
+	};
+	301DD166142107780011C846 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 22922AD20F38D67900B1EFEA /* commonsyms.c */;
+		name = "commonsyms.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	3029C146126517CE00964DD4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3029C147126517CE00964DD4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3029C157126518A000964DD4 /* gbend~.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 10023}}";
+			sepNavSelRange = "{18942, 0}";
+			sepNavVisRange = "{12885, 1427}";
+			sepNavWindowFrame = "{{1, 9}, {838, 869}}";
+		};
+	};
+	307CCB0B13073AEF00395FA3 /* gbend~.c:470 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 3029C157126518A000964DD4 /* gbend~.c */;
+		functionName = "gbend_setup()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 470;
+		modificationTime = 319240943.239799;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+}

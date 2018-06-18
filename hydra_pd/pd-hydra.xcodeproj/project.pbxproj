@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3105385F1DD8E209003DD2FB /* libsixense_utils.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3105385D1DD8E209003DD2FB /* libsixense_utils.dylib */; };
+		310538601DD8E209003DD2FB /* libsixense.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3105385E1DD8E209003DD2FB /* libsixense.dylib */; };
+		310538611DD8E2E2003DD2FB /* libsixense_utils_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A7F83F1DD8C65400741B28 /* libsixense_utils_x64.dylib */; };
+		310538621DD8E2E8003DD2FB /* libsixense_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A7F8401DD8C65400741B28 /* libsixense_x64.dylib */; };
+		312C993E1E1ACB2600BDE546 /* pd-hydra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31A7F7FC1DD79ACD00741B28 /* pd-hydra.cpp */; };
+		312C993F1E1ACB6E00BDE546 /* libsixense_utils.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3105385D1DD8E209003DD2FB /* libsixense_utils.dylib */; };
+		312C99401E1ACB7100BDE546 /* libsixense.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3105385E1DD8E209003DD2FB /* libsixense.dylib */; };
+		312C99411E1ACB7400BDE546 /* libsixense_utils_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A7F83F1DD8C65400741B28 /* libsixense_utils_x64.dylib */; };
+		312C99421E1ACB7900BDE546 /* libsixense_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A7F8401DD8C65400741B28 /* libsixense_x64.dylib */; };
+		31A7F7FD1DD79ACD00741B28 /* pd-hydra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31A7F7FC1DD79ACD00741B28 /* pd-hydra.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3105385D1DD8E209003DD2FB /* libsixense_utils.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_utils.dylib; path = dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll/libsixense_utils.dylib; sourceTree = "<group>"; };
+		3105385E1DD8E209003DD2FB /* libsixense.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense.dylib; path = dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll/libsixense.dylib; sourceTree = "<group>"; };
+		312C99381E1ACAD900BDE546 /* hydra.pd_darwin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hydra.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
+		312C993A1E1ACADA00BDE546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A7F7C51DD76B2100741B28 /* hydra.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = hydra.pd_darwin; path = hydra_pd.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A7F7FC1DD79ACD00741B28 /* pd-hydra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "pd-hydra.cpp"; path = "src/pd-hydra.cpp"; sourceTree = "<group>"; };
+		31A7F8141DD8BDE200741B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A7F83F1DD8C65400741B28 /* libsixense_utils_x64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_utils_x64.dylib; path = dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll/libsixense_utils_x64.dylib; sourceTree = "<group>"; };
+		31A7F8401DD8C65400741B28 /* libsixense_x64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_x64.dylib; path = dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll/libsixense_x64.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312C99351E1ACAD900BDE546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312C993F1E1ACB6E00BDE546 /* libsixense_utils.dylib in Frameworks */,
+				312C99401E1ACB7100BDE546 /* libsixense.dylib in Frameworks */,
+				312C99411E1ACB7400BDE546 /* libsixense_utils_x64.dylib in Frameworks */,
+				312C99421E1ACB7900BDE546 /* libsixense_x64.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A7F7C21DD76B2100741B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310538601DD8E209003DD2FB /* libsixense.dylib in Frameworks */,
+				310538621DD8E2E8003DD2FB /* libsixense_x64.dylib in Frameworks */,
+				3105385F1DD8E209003DD2FB /* libsixense_utils.dylib in Frameworks */,
+				310538611DD8E2E2003DD2FB /* libsixense_utils_x64.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312C99391E1ACADA00BDE546 /* hydra */ = {
+			isa = PBXGroup;
+			children = (
+				312C993A1E1ACADA00BDE546 /* Info.plist */,
+			);
+			path = hydra;
+			sourceTree = "<group>";
+		};
+		31A7F7BC1DD76B2100741B28 = {
+			isa = PBXGroup;
+			children = (
+				31A7F7CC1DD76B2A00741B28 /* src */,
+				31A7F8131DD8BDE200741B28 /* hydra */,
+				312C99391E1ACADA00BDE546 /* hydra */,
+				31A7F7C61DD76B2100741B28 /* Products */,
+				31A7F83E1DD8C65400741B28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31A7F7C61DD76B2100741B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A7F7C51DD76B2100741B28 /* hydra.pd_darwin */,
+				312C99381E1ACAD900BDE546 /* hydra.pd_darwin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A7F7CC1DD76B2A00741B28 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31A7F7FC1DD79ACD00741B28 /* pd-hydra.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		31A7F8131DD8BDE200741B28 /* hydra */ = {
+			isa = PBXGroup;
+			children = (
+				31A7F8141DD8BDE200741B28 /* Info.plist */,
+			);
+			path = hydra;
+			sourceTree = "<group>";
+		};
+		31A7F83E1DD8C65400741B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3105385D1DD8E209003DD2FB /* libsixense_utils.dylib */,
+				3105385E1DD8E209003DD2FB /* libsixense.dylib */,
+				31A7F83F1DD8C65400741B28 /* libsixense_utils_x64.dylib */,
+				31A7F8401DD8C65400741B28 /* libsixense_x64.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31A7F7C31DD76B2100741B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		312C99371E1ACAD900BDE546 /* hydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312C993B1E1ACADA00BDE546 /* Build configuration list for PBXNativeTarget "hydra" */;
+			buildPhases = (
+				312C99341E1ACAD900BDE546 /* Sources */,
+				312C99351E1ACAD900BDE546 /* Frameworks */,
+				312C99361E1ACAD900BDE546 /* Resources */,
+				312C99431E1ACBBE00BDE546 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hydra;
+			productName = hydra;
+			productReference = 312C99381E1ACAD900BDE546 /* hydra.pd_darwin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		31A7F7C41DD76B2100741B28 /* hydra_pd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A7F7C91DD76B2100741B28 /* Build configuration list for PBXNativeTarget "hydra_pd" */;
+			buildPhases = (
+				31A7F7C11DD76B2100741B28 /* Sources */,
+				31A7F7C21DD76B2100741B28 /* Frameworks */,
+				31A7F7C31DD76B2100741B28 /* Headers */,
+				310538561DD8DC12003DD2FB /* Resources */,
+				310538B51DDCB996003DD2FB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hydra_pd;
+			productName = pdHydra;
+			productReference = 31A7F7C51DD76B2100741B28 /* hydra.pd_darwin */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31A7F7BD1DD76B2100741B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = IRCAM;
+				TargetAttributes = {
+					312C99371E1ACAD900BDE546 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					31A7F7C41DD76B2100741B28 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31A7F7C01DD76B2100741B28 /* Build configuration list for PBXProject "pd-hydra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31A7F7BC1DD76B2100741B28;
+			productRefGroup = 31A7F7C61DD76B2100741B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31A7F7C41DD76B2100741B28 /* hydra_pd */,
+				312C99371E1ACAD900BDE546 /* hydra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310538561DD8DC12003DD2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312C99361E1ACAD900BDE546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		310538B51DDCB996003DD2FB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		312C99431E1ACBBE00BDE546 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#mv -R \"$TARGET_BUILD_DIR/$TARGET_NAME.bundle\" \"$TARGET_BUILD_DIR/$TARGET_NAME.pd_darwin\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312C99341E1ACAD900BDE546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312C993E1E1ACB2600BDE546 /* pd-hydra.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A7F7C11DD76B2100741B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A7F7FD1DD79ACD00741B28 /* pd-hydra.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		312C993C1E1ACADA00BDE546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = /;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**",
+					"$(PROJECT_DIR)/dependancies/pure-data-pure-data/src",
+				);
+				INFOPLIST_FILE = hydra/Info.plist;
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll",
+					"$(LOCAL_LIBRARY_DIR)/Pd",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IRCAM.hydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRIP_STYLE = debugging;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**";
+				WRAPPER_EXTENSION = pd_darwin;
+			};
+			name = Debug;
+		};
+		312C993D1E1ACADA00BDE546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = /;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**",
+					"$(PROJECT_DIR)/dependancies/pure-data-pure-data/src",
+				);
+				INFOPLIST_FILE = hydra/Info.plist;
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll",
+					"$(LOCAL_LIBRARY_DIR)/Pd",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IRCAM.hydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRIP_STYLE = debugging;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**";
+				WRAPPER_EXTENSION = pd_darwin;
+			};
+			name = Release;
+		};
+		31A7F7C71DD76B2100741B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = ./bin;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+			};
+			name = Debug;
+		};
+		31A7F7C81DD76B2100741B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = ./bin;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		31A7F7CA1DD76B2100741B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**",
+					"$(PROJECT_DIR)/dependancies/pure-data-pure-data/src",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll",
+					"$(LOCAL_LIBRARY_DIR)/Pd",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		31A7F7CB1DD76B2100741B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**",
+					"$(PROJECT_DIR)/dependancies/pure-data-pure-data/src",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx_x64/release_dll",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/osx/release_dll",
+					"$(LOCAL_LIBRARY_DIR)/Pd",
+					"$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/dependancies/sixenseSDK_linux_OSX/include/**";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312C993B1E1ACADA00BDE546 /* Build configuration list for PBXNativeTarget "hydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312C993C1E1ACADA00BDE546 /* Debug */,
+				312C993D1E1ACADA00BDE546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A7F7C01DD76B2100741B28 /* Build configuration list for PBXProject "pd-hydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A7F7C71DD76B2100741B28 /* Debug */,
+				31A7F7C81DD76B2100741B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A7F7C91DD76B2100741B28 /* Build configuration list for PBXNativeTarget "hydra_pd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31A7F7CA1DD76B2100741B28 /* Debug */,
+				31A7F7CB1DD76B2100741B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31A7F7BD1DD76B2100741B28 /* Project object */;
+}

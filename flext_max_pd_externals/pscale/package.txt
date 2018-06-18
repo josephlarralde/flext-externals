@@ -1,0 +1,5 @@
+NAME=pscale
+
+SRCDIR=src
+
+SRCS=pscale.cpp

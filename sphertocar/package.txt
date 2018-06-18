@@ -1,5 +1,0 @@
-NAME=sphertocar
-
-SRCDIR=src
-
-SRCS=sphertocar.cpp

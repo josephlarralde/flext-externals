@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		316B38FF1DF6DFCC00325503 /* libsixense_utils_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A599331DF6D46800106C83 /* libsixense_utils_x64.dylib */; };
+		316B39001DF6DFCC00325503 /* libsixense_x64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A599341DF6D46800106C83 /* libsixense_x64.dylib */; };
+		31A599311DF6D45B00106C83 /* libsixense_utils.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5992F1DF6D45B00106C83 /* libsixense_utils.dylib */; };
+		31A599321DF6D45B00106C83 /* libsixense.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A599301DF6D45B00106C83 /* libsixense.dylib */; };
+		31A5993F1DF6D9E500106C83 /* hydra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31A2BFD41DF4F334002F758E /* hydra.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBBEAE508F335360078DB84 /* hydra.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hydra.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A2BFD41DF4F334002F758E /* hydra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hydra.cpp; path = ../../src/hydra.cpp; sourceTree = "<group>"; };
+		31A2BFE41DF51587002F758E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A5992F1DF6D45B00106C83 /* libsixense_utils.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_utils.dylib; path = ../../../sixenseSDK_linux_OSX/lib/osx/release_dll/libsixense_utils.dylib; sourceTree = "<group>"; };
+		31A599301DF6D45B00106C83 /* libsixense.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense.dylib; path = ../../../sixenseSDK_linux_OSX/lib/osx/release_dll/libsixense.dylib; sourceTree = "<group>"; };
+		31A599331DF6D46800106C83 /* libsixense_utils_x64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_utils_x64.dylib; path = ../../../sixenseSDK_linux_OSX/lib/osx_x64/release_dll/libsixense_utils_x64.dylib; sourceTree = "<group>"; };
+		31A599341DF6D46800106C83 /* libsixense_x64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsixense_x64.dylib; path = ../../../sixenseSDK_linux_OSX/lib/osx_x64/release_dll/libsixense_x64.dylib; sourceTree = "<group>"; };
+		7CCE43201C8B516E00535CE7 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316B38FF1DF6DFCC00325503 /* libsixense_utils_x64.dylib in Frameworks */,
+				316B39001DF6DFCC00325503 /* libsixense_x64.dylib in Frameworks */,
+				31A599311DF6D45B00106C83 /* libsixense_utils.dylib in Frameworks */,
+				31A599321DF6D45B00106C83 /* libsixense.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				31A2BFE41DF51587002F758E /* Info.plist */,
+				7CCE43201C8B516E00535CE7 /* maxmspsdk.xcconfig */,
+				31A2BFD41DF4F334002F758E /* hydra.cpp */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				31A2BFDB1DF4F676002F758E /* Frameworks */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* hydra.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A2BFDB1DF4F676002F758E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31A599331DF6D46800106C83 /* libsixense_utils_x64.dylib */,
+				31A599341DF6D46800106C83 /* libsixense_x64.dylib */,
+				31A5992F1DF6D45B00106C83 /* libsixense_utils.dylib */,
+				31A599301DF6D45B00106C83 /* libsixense.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* hydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "hydra" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+				31DFF77B1DF6245B0013BA7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hydra;
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* hydra.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "hydra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* hydra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31DFF77B1DF6245B0013BA7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DYLIB_UTILS=libsixense_utils_x64.dylib\nexport DYLIB=libsixense_x64.dylib\n\nmkdir \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks\"\n\ncp -f \"$SIXENSE_SDK_PATH/lib/osx_x64/release_dll/$DYLIB_UTILS\" \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks\"\n\ncp -f \"$SIXENSE_SDK_PATH/lib/osx_x64/release_dll/$DYLIB\" \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks\"\n\n# install_name_tool -change @executable_path/$DYLIB_UTILS @loader_path/../Frameworks/$DYLIB_UTILS \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\n# install_name_tool -change @executable_path/$DYLIB @loader_path/../Frameworks/$DYLIB \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\n####################### OTHER METHOD ######################\n\ninstall_name_tool -id @loader_path/../Frameworks/$DYLIB_UTILS \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks/$DYLIB_UTILS\"\n\n# install_name_tool -change \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks/$DYLIB_UTILS\" @loader_path/../Frameworks/$DYLIB_UTILS \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\ninstall_name_tool -id @loader_path/../Frameworks/$DYLIB \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks/$DYLIB\"\n\n# install_name_tool -change \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks/$DYLIB\" @loader_path/../Frameworks/$DYLIB \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\n############## YET ANOTHER METHOD (PREVIOUS DON'T WORK) ############\n\ninstall_name_tool -change /usr/local/lib/$DYLIB_UTILS @loader_path/../Frameworks/$DYLIB_UTILS \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\ninstall_name_tool -change /usr/local/lib/$DYLIB @loader_path/../Frameworks/$DYLIB \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/MacOS/$PRODUCT_NAME\"\n\ninstall_name_tool -change /usr/local/lib/$DYLIB @loader_path/../Frameworks/$DYLIB \"$TARGET_BUILD_DIR/$TARGET_NAME.mxo/Contents/Frameworks/$DYLIB_UTILS\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A5993F1DF6D9E500106C83 /* hydra.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCE43201C8B516E00535CE7 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-framework",
+					MaxAudioAPI,
+					"-framework",
+					JitterAPI,
+					"$(C74_SYM_LINKER_FLAGS)",
+				);
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCE43201C8B516E00535CE7 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-framework",
+					MaxAudioAPI,
+					"-framework",
+					JitterAPI,
+					"$(C74_SYM_LINKER_FLAGS)",
+				);
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "$(DSTROOT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					"$(SIXENSE_SDK_PATH)/include/**",
+					"$(SIXENSE_SDK_PATH)/include/sixense_utils/controller_manager/**",
+					"$(SIXENSE_SDK_PATH)/include/sixense_utils/**",
+				);
+				INSTALL_PATH = "$(INSTALL_PATH)";
+				OTHER_LDFLAGS = (
+					"$(C74_SYM_LINKER_FLAGS)",
+					"-framework",
+					MaxAudioAPI,
+				);
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = "$(DSTROOT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					"$(SIXENSE_SDK_PATH)/include/**",
+					"$(SIXENSE_SDK_PATH)/include/sixense_utils/controller_manager/**",
+					"$(SIXENSE_SDK_PATH)/include/sixense_utils/**",
+				);
+				INSTALL_PATH = "$(INSTALL_PATH)";
+				OTHER_LDFLAGS = (
+					"$(C74_SYM_LINKER_FLAGS)",
+					"-framework",
+					MaxAudioAPI,
+				);
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "hydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "hydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

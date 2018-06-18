@@ -1,5 +1,0 @@
-NAME=speed
-
-SRCDIR=src
-
-SRCS=speed.cpp
